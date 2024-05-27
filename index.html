@@ -8,49 +8,212 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<link> <rel="stylesheet" href="css/Cerveceria.css">
+<link rel="stylesheet" href="css/Cerveceria.css">
+
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-<div class="container-fluid">
-<a class="navbar-brand"  href="#">BEER X</a>
-   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Novedades</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Historia</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="#">Nosotros</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="#">Conocenos</a>
-        </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+         <div class="container-fluid">
+              <a class="navbar-brand"  href="#">BEER X</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                  data-bs-target="#navbarSupportedContent" 
+                      aria-controls="navbarSupportedContent" aria-expanded="false" 
+                      aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                       <li class="nav-item">
+                           <a class="nav-link active" aria-current="page" href="#">Home</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="#">Novedades</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Conocenos</a>
+                      </li>
+                    </ul>
+               </div>
+           </div>
+     </nav>
+     
+     <div class="container-fluid hero-container">
+      <div id="Home" class="row align-items-center hero">
+        <div class="col-lg-3 offset-lg-2">
+          <h1>Beer X: La Revolución de la Cerveza Artesanal</h1>
+          <p class="hero-text">Bienvenido a Beer X, la cervecería artesanal donde la creatividad y el sabor se unen en cada botella. Descubre nuestra amplia gama de cervezas artesanales, elaboradas con ingredientes de alta calidad. En Beer X, nos enorgullecemos de ofrecer una experiencia única y auténtica a todos nuestros clientes. Explora nuestro mundo de sabores y descubre por qué somos la elección preferida de los amantes de la cerveza artesanal.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row my-3">
+          <div id="novedades" class="col-md-5 offset-md-2 py-3">
+  <link rel="preconnect" href="https://getbootstrap.com/docs/5.3/components/modal/">
+               <h2>Novedades</h2>
+               <ul class="lista-novedades">
+                   <li><a href="#" data-bs-toggle="modal" data-bs-target="#Pilsen">
+  <img src="img/novedades01.jpg" alt="Nuevas recetas 1">Nuevas recetas 1
+  </a>
+  </li>
+  <li><a href="#" data-bs-toggle="modal" data-bs-target="#Bock">
+  <img src="img/novedades01.jpg" alt="Nuevas recetas 2">Nuevas recetas 2
+  </a>
+  </li>
+  <li><a href="#" data-bs-toggle="modal" data-bs-target="#Stout">
+  <img src="img/novedades01.jpg" alt="Nuevas recetas 3">Nuevas recetas 3
+  </a>
+  </li>
+  <li><a href="#" data-bs-toggle="modal" data-bs-target="#Pale-Ale">
+  <img src="img/novedades01.jpg" alt="Nuevas recetas 4">Nuevas recetas 4
+  </a>
+  </li>
+  <li><a href="#" data-bs-toggle="modal" data-bs-target="#Porter">
+  <img src="img/novedades01.jpg" alt="Nuevas recetas 5">Nuevas recetas 5
+  </a>
+  </li>
+  </ul>
+  </div>
+  <div class="col-md-3 my-3">
+     <div class="rounded py-5 testimonios">
+          <h2 class="text-center">Testimonios</h2>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="true">  
+        <div class="carousel-indicators">
+   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  
+<div class="carousel-inner">
+   <div class="carousel-item active">
+     <div class="testimonio">
+     <h5>"La mejor birra de zona sur"</h5>
+      <p>Lucas, de Banfield. 20/4/2022</p>
+      </div>
+   </div>
+<div class="carousel-item">
+     <div class="testimonio">
+     <h5>"La comida riquisima y la musica del lugar de diez!"</h5>
+     <p>Lucia, Caba. 25/5/2024</p>
+   </div>
+</div>
+ <div class="carousel-item">
+     <div class="testimonio">
+     <h5>"La calidad de las productos como del servicio es de lo mas destacable"</h5>
+      <p> Mara, de Avellaneda. 12/07/2023 </p>
+     </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Previous</span>
+</button>
+
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
+  
+   </div>
+   </div>
+</div>
+
+<!-- Inicio Modal-->
+  <div class="modal fade" id="Pilsen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="Pilsen">Nueva receta 1</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+             <h3>Pilsen</h3>
+             <p>Cerveza rubia, clara y refrescante, con un sabor a malta y un amargor pronunciado.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
     </div>
   </div>
-  </nav>
-  <div class="container-fluid hero-container">
-    <img src="img/header.jpg" class="img-fluid hero-image" alt="header">
-    <div id="Home" class="row align-items-center hero-content">
-      <div class="col-lg-3 offset-lg-2">
-        <h1>Beer X: La Revolución de la Cerveza Artesanal</h1>
-        <p class="hero-text">Bienvenido a Beer X, la cervecería artesanal donde la creatividad y el sabor se unen en cada botella. Descubre nuestra amplia gama de cervezas artesanales, elaboradas con ingredientes de alta calidad y procesos de producción controlativa. En Beer X, nos enorgullecemos de ofrecer una experiencia única y auténtica a todos nuestros clientes. Explora nuestro mundo de sabores y descubre por qué somos la elección preferida de los amantes de la cerveza artesanal.</p>
+  
+  <div class="modal fade" id="Bock" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="Bock">Nueva receta 2</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+             <h3>Bock</h3>
+             <p>Cerveza de color marrón oscuro, con un sabor a malta tostada y un final dulce.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
 
-  <footer> <p class= "text-center">Diseñado por Martin Rey 2024</p>
-  </footer>
+  <div class="modal fade" id="Stout" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="Stout">Nueva receta 3</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+             <h3>Stout</h3>
+             <p>Similar al Porter pero más oscura y con más cuerpo, con notas de café, chocolate y malta tostada.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="Pale-Ale" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="Pale-Ale">Nueva receta 4</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+             <h3>Pale Ale</h3>
+             <p>Cerveza de color cobre, con un sabor a malta caramelizada y un amargor medio.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tYlYl6NNkmXc5s9fDZVZSaAA55NDzOxhy9GkkIdslK1eN7N6JHz" crossorigin="anonymous"></script>
+  <div class="modal fade" id="Porter" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="Porter">Nueva receta 5</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+             <h3>Porter</h3>
+             <p>Cerveza de color marrón oscuro, con sabores a malta tostada, chocolate y café.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Cierre Modal-->
+
+<footer> <p class= "text-center">Diseñado por Martin Rey 2024</p></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tYlYl6NNkmXc5s9fDZVZSaAA55NDzOxhy9GkkIdslK1eN7N6JHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
 </body>
 </html>
